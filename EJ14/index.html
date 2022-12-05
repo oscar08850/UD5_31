@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJ14</title>
+
+    <!--De esta manera llamaremos al archivo codigo.js en el que tenemos nuestro codigo JavaScript-->
+    <script src="codigo.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!--Usando <noscript> notificaremos al usuario en el caso que su navegador no tenga JavaScript activado.-->
+    <noscript>
+        <p>No se ha detectado Javascript en el navegador</p>
+    </noscript>
+
+    <div>
+        <table>
+            <tr>
+                <td colspan="5"> <input type="input" id="input"></td>
+            </tr>
+            <tr>
+                <td><button onclick="seven()">7</button></td>
+                <td><button onclick="eight()">8</button></td>
+                <td><button onclick="nine()">9</button></td>
+                <td><button onclick="multiply()">*</button></td>
+                <td><button onclick="ce()">CE</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="four()">4</button></td>
+                <td><button onclick="five()">5</button></td>
+                <td><button onclick="six()">6</button></td>
+                <td><button onclick="divide()">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="one()">1</button></td>
+                <td><button onclick="two()">2</button></td>
+                <td><button onclick="three()">3</button></td>
+                <td><button onclick="sum()">+</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button onclick="zero()">0</button></td>
+                <td><button onclick="decimal()">.</button></td>
+                <td><button onclick="substract()">-</button></td>
+                <td><button onclick="equal()">=</button></td>
+            </tr>
+        </table>
+
+    </div>
+
+
+    <p>Ejercicio 14</p>
+</body>
+
+</html>
